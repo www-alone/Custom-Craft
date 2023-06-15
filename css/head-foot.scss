@@ -68,13 +68,12 @@ header {
     }
 }
 footer {
+    background-color: #FFEF9E;
+    height: 260px;
     width: 100%;
+    display: flex;
+    align-items: center;
     .footer{
-        background-color: #FFEF9E;
-        height: 260px;
-        display: flex;
-        align-items: center;
-        .wrapper{
             .footer__cont{
                 display: flex;
                 flex-direction: row;
@@ -93,6 +92,5 @@ footer {
                     font-weight: 700;
                 }
             }
-        }
     }
 }
