@@ -1,0 +1,80 @@
+@media screen and (max-width: 399px) {
+  header {
+    height: 150px;
+  }
+  header .header .header__logo .logo__svg img {
+    width: 145px;
+  }
+  header .header .header__logo .logo__name {
+    font-size: 60px;
+  }
+  header .header .header__nav .navbar .nav__menu {
+    font-size: 70px;
+  }
+  header .header .header__nav .navbar .dropdown-menu {
+    padding: 20px;
+  }
+  header .header .header__nav .navbar .dropdown-menu .dropdown-item {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 568px) {
+  header {
+    height: 140px;
+  }
+  header .header .header__logo .logo__name {
+    font-size: 50px;
+  }
+  header .header .header__logo .logo__svg img {
+    width: 125px;
+  }
+  header .header .header__nav .navbar .nav__menu {
+    font-size: 60px;
+  }
+  header .header .header__nav .navbar .dropdown-menu {
+    padding: 20px;
+  }
+  header .header .header__nav .navbar .dropdown-menu .dropdown-item {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 569px) and (max-width: 768px) {
+  header {
+    height: 120px;
+  }
+  header .header .header__logo .logo__name {
+    font-size: 40px;
+  }
+  header .header .header__logo .logo__svg img {
+    width: 100px;
+  }
+  header .header .header__nav .navbar .nav__menu {
+    font-size: 50px;
+  }
+  header .header .header__nav .navbar .dropdown-menu {
+    padding: 10px;
+  }
+  header .header .header__nav .navbar .dropdown-menu .dropdown-item {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 80px;
+  }
+  header .header .header__logo .logo__name {
+    font-size: 30px;
+  }
+  header .header .header__logo .logo__svg img {
+    width: 75px;
+  }
+  header .header .header__nav .navbar .nav__menu {
+    font-size: 36px;
+  }
+  header .header .header__nav .navbar .dropdown-menu {
+    padding: 10px;
+  }
+  header .header .header__nav .navbar .dropdown-menu .dropdown-item {
+    font-size: 30px;
+  }
+}

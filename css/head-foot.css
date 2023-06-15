@@ -64,7 +64,6 @@ header .header .header__nav .navbar .nav__menu:hover {
 }
 header .header .header__nav .navbar .dropdown-menu {
   display: none;
-  top: 100%;
   background-color: #ffef9e;
   padding: 10px;
   border: 2px solid black;
@@ -92,9 +91,11 @@ header .header .header__nav .navbar .dropdown-menu .dropdown-item:hover {
           transform: scale(1.1);
 }
 
+footer {
+  width: 100%;
+}
 footer .footer {
   background-color: #FFEF9E;
-  width: 100%;
   height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;

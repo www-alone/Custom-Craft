@@ -10,10 +10,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['notes'];
     $mail->isSMTP();
-    $mail->Host = 'smtp.yandex.ru';
+    $mail->Host = 'smtp.yandex.ru';//SMTP-почты
     $mail->SMTPAuth = true;
-    $mail->Username = 'www-pain@yandex.ru';
-    $mail->Password = 'duisahdsuiahduiashduiashdiuas';
+    $mail->Username = '';//Почта
+    $mail->Password = '';//Пароль от почты
     $mail->SMTPSecure = 'TSL';
     $mail->Port = 587;
 
@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isHTML(true);
     $mail->Subject = 'Custom Craft';
     $mail->Body = "<h1>Email: $email</h1><br><h2> Сообщение: $message</h2>";
-    // Отправка
     // Отправка письма
     if ($mail->send()) {
         echo 'Письмо успешно отправлено.';
