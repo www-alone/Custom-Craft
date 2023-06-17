@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->Port = 587;
 
     // Получатель и отправитель
-    $mail->setFrom($_POST['email'], $_POST['name']);
-    $mail->addAddress('www-pain@yandex.ru');
+    $mail->setFrom($_POST['email'], $_POST['name']);// Получатель
+    $mail->addAddress('www-pain@yandex.ru');// Отправитель
 
     // Контент письма
     $mail->CharSet = 'UTF-8';
