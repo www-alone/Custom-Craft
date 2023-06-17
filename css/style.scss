@@ -283,8 +283,9 @@ body {
       overflow: hidden;
       &__images{
         display: flex;
+        width: 800px;
+        height: 640px;
         width: 400%;
-        height: 100%;
         transition: transform 0.5s ease-in-out;
       }
       &__arrows{
