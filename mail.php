@@ -23,7 +23,7 @@
       // Контент письма
       $mail->CharSet = 'UTF-8'; // Кодировка для всех текстов
       $mail->isHTML(true); // Включение HTML-формата
-      $mail->Subject = 'VrCenter';
+      $mail->Subject = 'СustomCraft';
       $mail->Body = "<h1>Email: $email</h1><br><h2> Сообщение: $message</h2>";
   
       // Отправка
